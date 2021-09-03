@@ -1,4 +1,4 @@
-SELECT CONCAT(first_name,' ', last_name) AS 'Nome Completo',
+SELECT CONCAT(e.first_name, ' ', e.last_name) AS 'Nome Completo',
 j.job_title AS 'Cargo',
 jh.start_date AS 'Data de início do cargo',
 d.department_name AS 'Departamento'
