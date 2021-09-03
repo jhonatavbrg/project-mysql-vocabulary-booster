@@ -6,4 +6,5 @@ CASE
     WHEN min_salary >= 5000 AND max_salary <= 10000 THEN 'Alto'
     ELSE 'Altíssimo'
 END AS 'Nível'
-FROM hr.jobs;
+FROM hr.jobs
+ORDER BY Cargo;
